@@ -1,0 +1,14 @@
+{
+  "name": "notes-web-app",
+  "version": "1.0.0",
+  "description": "a basic notes taking web app built using MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanmay, Raju, Ayush",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
