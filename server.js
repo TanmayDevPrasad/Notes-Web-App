@@ -7,10 +7,10 @@ app.get('/', (req, res) => {
   res.send('This is Sign-Up / Login Page')
 })
 
-app.get('/', (req, res) => {
+// User Home Page Route
+app.get('/home', (req, res) => {
   res.send('This is User Home Page')
-}
-)
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
